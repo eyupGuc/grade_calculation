@@ -6,7 +6,7 @@ class Sabitler {
   static const String baslikText = 'Ortalama Hesapla';
   static final TextStyle baslikStyle = GoogleFonts.quicksand(
       fontSize: 24, fontWeight: FontWeight.w900, color: anaRenk);
-  static BorderRadius borderRadius = BorderRadius.circular(24);
+  static BorderRadius borderRadius = BorderRadius.circular(20);
 
   static final TextStyle ortalamaGosterBodystyle = GoogleFonts.quicksand(
       fontSize: 16, fontWeight: FontWeight.w600, color: anaRenk);
