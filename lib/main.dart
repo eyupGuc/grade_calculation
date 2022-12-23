@@ -1,4 +1,5 @@
 import 'package:dinamik_not_hesaplama/constants/app_constants.dart';
+import 'package:dinamik_not_hesaplama/widgets/ortalama_hesapla_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,14 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(primarySwatch: Sabitler.anaRenk),
+      theme: ThemeData(
+          primarySwatch: Sabitler.anaRenk,
+          visualDensity: VisualDensity.adaptivePlatformDensity),
       debugShowCheckedModeBanner: false,
       title: "Dinamik not Hesaplama",
-      home: Scaffold(
-        body: Center(
-          child: Text("data"),
-        ),
-      ),
+      home: Scaffold(body: OrtalamaHesaplaPage()),
     );
   }
 }
