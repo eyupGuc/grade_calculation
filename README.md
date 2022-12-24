@@ -1,4 +1,4 @@
-# dinamik_not_hesaplama
+# grade_calculation
 ![](grade_calculation.gif)
 
 
